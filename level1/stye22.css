@@ -1,0 +1,99 @@
+html{
+    min-height: 100vh;
+    /* background: url("C:\Users\USER\Desktop\Certificates\type witting-image.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    /* background-color: rgb(35, 35, 35);  */
+    
+    min-height: 100vh;
+    /* background: url("C:\Users\USER\Desktop\Certificates\type witting-image.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body, .quote-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  
+  
+  .container {
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    border-radius: .7rem;
+    width: 700px;
+    max-width: 90%;
+    height: 20 rem;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .quote-display {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+  }
+  
+  .quote-input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #A1922E;
+    outline: none;
+    width: 100%;
+    height: 11rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+  }
+  
+  .quote-input:focus {
+    border-color: black;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+    text-decoration: underline;
+  }
+  .container{
+      
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
